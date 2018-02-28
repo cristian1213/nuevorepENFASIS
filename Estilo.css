@@ -1,0 +1,59 @@
+body {
+	
+	
+	}
+
+title {
+
+
+}
+section {
+
+	
+	width: 25%;
+	float: left;
+	overflow: auto;
+	background-color: rgb(104,191,200);
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right:20px;
+	margin-left: 20px;
+
+
+	border-style: outset;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-top-width: 10px;
+	border-bottom-width: 10px;
+
+	width: 300px;
+	height: 200px;
+	background-color: rgb(104,191,200);;
+	animation-name: efec ;
+	animation-duration: 5s;
+
+}
+
+
+article {
+	background-color: rgb(10,28,116);
+	padding-left:50px;
+	padding-right:30px;
+	padding-bottom:5px;
+	padding-top:10px;
+	overflow: auto;
+
+
+
+
+}
+@keyframes efec {
+	from {background-color:rgb(200,191,139);;}
+	to {background-color: rgb(104,191,200);;}
+}
